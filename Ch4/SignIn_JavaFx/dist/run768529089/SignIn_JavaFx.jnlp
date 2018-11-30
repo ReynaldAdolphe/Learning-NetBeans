@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SignIn_JavaFx.jnlp">
+  <information>
+    <title>SignIn_JavaFx</title>
+    <vendor>Reynald Adolphe</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SignIn_JavaFx.jar" size="2300" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SignIn_JavaFx" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="signin_javafx.SignIn_JavaFx"  name="SignIn_JavaFx" />
+  <update check="always"/>
+</jnlp>
